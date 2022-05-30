@@ -17,7 +17,7 @@ Four types of input files are required for reQTL-mapping
 - `File_B`
  Genotype file includes variants in the studied panel. The format is as below:
 
- | id | GenoA | GenoB | GenoC | GenoC |
+ | id | GenoA | GenoB | GenoC | GenoD |
  | :---: | :---: |:---: |:---: |:--: |
  |S1_43699| 0 | 2 | 0 | 0 |
  |S1_43964| 0 | 2 | 2 | 2 |
@@ -25,7 +25,7 @@ Four types of input files are required for reQTL-mapping
 - `File_C`
  Two covariate files derived from two conditions were employed for controlling confounding variables (File_C1 and File_C2). The format is as below:
 
- | id | GenoA | GenoB | GenoC | GenoC |
+ | id | GenoA | GenoB | GenoC | GenoD |
  | :---: | :---: |:---: |:---: |:--: |
  |PC1| -123 | -551 | 157 | 102 |
  |PC2| 466 | -44 | -111 | -48 |
@@ -33,7 +33,7 @@ Four types of input files are required for reQTL-mapping
 - `File_D`
  Two normalized expression files of genes employed in the study (File_D1 and File_D2). The format is as below:
 
- | id | GenoA | GenoB | GenoC | GenoC |
+ | id | GenoA | GenoB | GenoC | GenoD |
  | :---: | :---: |:---: |:---: |:--: |
  |ENSRNA049458448| -0.398 | 0.133 | 0.477 | 2.068 |
  |Zm00001d000098| 2.150 | -0.834 | 1.747 | -1.51 |

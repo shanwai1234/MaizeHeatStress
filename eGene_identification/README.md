@@ -4,10 +4,10 @@ Four types of input files are required for reQTL-mapping
 
 - `File_A`
  - The file includes top selected cis-eQTL and its relevant regulated gene. The format is as below:
- `gene    Chrom   Position        SNP
-Zm00001d036337  Chr6    84748285        S6_84748285
-Zm00001d036337  Chr6    84748320        S6_84748320
-...`
+ | gene | Chrom | Position | SNP |
+| :---: | :---: |:---: |:---: | :---: |
+|Zm00001d036337|Chr6| 84748285 | S6_84748285 |
+|Zm00001d036337|Chr6| 84748320 | S6_84748320 |
 - `File_B`
  - Genotype file includes variants in the studied panel. The format is as below:
  `id      GenoA   GenoB    GenoC     GenoD

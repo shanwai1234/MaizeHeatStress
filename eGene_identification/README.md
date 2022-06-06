@@ -1,7 +1,7 @@
 # reQTL-mapping in crop species
 
 ## install required R packages for running the model
-`install.packages(c("dplyr","tidyr","tibble","lmerTest"))`
+`> install.packages(c("dplyr","tidyr","tibble","lmerTest"))`
 
 ## file organization
 Four types of input files are required for reQTL-mapping
@@ -41,4 +41,4 @@ Four types of input files are required for reQTL-mapping
 ## running the command for reQTL mapping
 Using the command below for reQTL mapping
 
-`Rscript cis-eQTL-detection.R File_A File_B File_C1 File_C2 File_D1 File_D2 > reQTLmapping-result.txt`
+`> Rscript cis-eQTL-detection.R File_A File_B File_C1 File_C2 File_D1 File_D2 > reQTLmapping-result.txt`

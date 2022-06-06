@@ -1,4 +1,4 @@
-# reQTL-mapping in crop species
+# reQTL-mapping
 
 ## install required R packages for running the model
 `> install.packages(c("dplyr","tidyr","tibble","lmerTest"))`

@@ -7,7 +7,7 @@
 Four types of input files are required for reQTL-mapping
 
 - `File_A`
- The file includes top selected cis-eQTL and its relevant regulated gene. The format is as below:
+ The file includes top selected cis-eQTL and its relevant regulated gene. cis-eQTLs were identified using [MatrixeQTL](http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/) The format is as below:
 
  | gene | Chrom | Position | SNP |
  | :---: | :---: |:---: |:---: |

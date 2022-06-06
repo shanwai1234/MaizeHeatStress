@@ -23,7 +23,7 @@ Four types of input files are required for reQTL-mapping
  |S1_43964| 0 | 2 | 2 | 2 |
 
 - `File_C`
- Two covariate files derived from two conditions were employed for controlling confounding variables (File_C1 and File_C2). The format is as below:
+ Two covariate files derived from two conditions were employed for controlling confounding variables (File_C1 and File_C2). Principal components were estimated using R function [prcomp][https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/prcomp] and PEER covariates were estimated using [PEER][https://github.com/PMBio/peer]. The format is as below:
 
  | id | GenoA | GenoB | GenoC | GenoD |
  | :---: | :---: |:---: |:---: |:--: |
@@ -31,7 +31,7 @@ Four types of input files are required for reQTL-mapping
  |PC2| 466 | -44 | -111 | -48 |
 
 - `File_D`
- Two normalized expression files of genes employed in the study (File_D1 and File_D2). The format is as below:
+ Two normalized expression files of genes employed in the study (File_D1 and File_D2). Expression data was normalized using R function [bestNormalize][https://github.com/petersonR/bestNormalize] The format is as below:
 
  | id | GenoA | GenoB | GenoC | GenoD |
  | :---: | :---: |:---: |:---: |:--: |
